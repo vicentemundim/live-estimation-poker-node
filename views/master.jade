@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1 Live Estimation Poker
+
+  p Started session with token #{token}
+
+  .master(data-token='#{token}')
+    p.wait waiting for other players to join...
+
+    ul.players
+
+    .players-container

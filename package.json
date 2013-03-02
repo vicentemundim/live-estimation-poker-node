@@ -1,0 +1,15 @@
+{
+  "name": "live-estimation-poker",
+  "description": "Live estimation poker lets you play estimation poker with many devices, while watching results in a master device, like a TV.",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "3.x",
+    "socket.io": "0.9.x",
+    "jade": "*",
+    "redis": "*"
+  }
+}

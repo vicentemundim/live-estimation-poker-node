@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1 Live Estimation Poker
+
+  h2 Started sessions
+  ul
+    - for (var key in tokens)
+      li
+        a(href='/session/#{tokens[key]}') #{tokens[key]}
+
+  h2 Start a new session
+  a(href='/start').btn.btn-success
+    i.icon-user.icon-white
+    |  Start
